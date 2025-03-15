@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../assets/logo.jpeg.jpg'
-import { RiCake2Fill, RiRestaurant2Line, RiTable3 } from '@remixicon/react'
+import { Ri4kLine, RiCake2Fill, RiDingdingLine, RiRestaurant2Line, RiRestaurantFill, RiTable3 } from '@remixicon/react'
 import { NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
@@ -22,7 +22,7 @@ const Sidebar = () => {
                 </div>
 
                 <div className="side-menu">
-                    <span className='text-orange-400'><RiRestaurant2Line /></span>
+                    <span className='text-orange-400'><RiRestaurantFill /></span>
                     <NavLink to={`/`}>Break fast</NavLink>
                 </div>
 

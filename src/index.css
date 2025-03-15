@@ -39,11 +39,14 @@
 }
 
 .hero-img img {
-    @apply w-[850px] h-[420px] object-cover rounded-2xl
+    @apply w-[850px] h-[420px] object-cover rounded-tl-[5rem] rounded-br-[5rem]
 }
 
 .hero-title {
     @apply w-full 
 }
 
+.grid-item {
+    @apply rounded-md
+}
 
