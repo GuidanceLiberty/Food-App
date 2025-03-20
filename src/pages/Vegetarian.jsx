@@ -27,7 +27,7 @@ const [loading, setLoading] = useState(false);
   return (
     <section className='bg-accent-secondary p-3'>
       <div className='text-2xl font-normal tracking-wider mb-11 flex flex-col justify-center items-center gap-1 '>
-          <span>Appetizer</span>
+          <span>Vegetable</span>
           <div className='border-t-[3px] border-orange-400 w-[12rem]'/>
         </div>
 

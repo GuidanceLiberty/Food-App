@@ -22,7 +22,7 @@ const Sidebar = () => {
                 </div>
 
                 <div className="side-menu">
-                    <span className='text-orange-400'><RiRestaurantFill /></span>
+                    <span className='text-orange-400'><RiBowlFill /></span>
                     <NavLink to={`/category/local`}>Local</NavLink>
                 </div>
 
@@ -47,7 +47,7 @@ const Sidebar = () => {
                 </div>
 
                 <div className="side-menu">
-                    <span className='text-orange-400'><RiBowlFill /></span>
+                    <span className='text-orange-400'><RiRestaurantFill /></span>
                     <NavLink to={`/category/italian`}>Italian</NavLink>
                 </div>
             </div>
