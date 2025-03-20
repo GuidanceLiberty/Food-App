@@ -1,9 +1,8 @@
 import React from 'react'
 import Sidebar from '../components/Sidebar'
 import Navbar from '../components/Navbar'
-import Hero from '../components/Hero'
 import { Link, Outlet } from 'react-router-dom'
-import ConfectionaryPage from './ConfectionaryPage'
+
 
 const Index = () => {
   return (
@@ -12,17 +11,11 @@ const Index = () => {
             <Sidebar />
 
             <div className="content">
-                <div className="flex flex-col">
-                    <Navbar />
-                    <Outlet />
-
-                  <div className="mt-11">
-                    <Hero />
-
-                    <ConfectionaryPage />
-                  </div>
+            <Navbar />
                     
-                </div>
+              <div className="mt-6 overflow-auto flex flex-1 flex-col">
+                  <Outlet />
+              </div>
                 
             </div>
         </div>

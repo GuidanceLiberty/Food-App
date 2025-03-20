@@ -6,16 +6,16 @@
 
 
 .navbar {
-    @apply flex justify-end items-center gap-5 min-h-16 p-2 shadow-xl z-40 ;
+    @apply bg-accent-secondary flex justify-between items-center gap-5 min-h-16 p-2 shadow-xl -mt-10 z-40 ;
 }
 
 .left-side {
-    @apply text-lg sticky left-0 top-0 flex h-screen w-3/12 flex-col justify-between border-r border-gray-300 px-3 pt-6 max-md:hidden transition-all ease-in-out duration-500;
+    @apply bg-accent-secondary text-lg sticky left-0 top-0 flex h-screen w-3/12 flex-col justify-between px-3 pt-6 max-md:hidden transition-all ease-in-out duration-500;
 
 }
 
 .content {
-    @apply flex justify-between sm:w-full md:w-9/12 max-h-screen p-8 z-0;
+    @apply flex flex-col justify-between sm:w-full md:w-9/12 max-h-screen p-8 z-0;
 }
 
 .side-menus {
@@ -46,7 +46,10 @@
     @apply w-full 
 }
 
-.grid-item {
-    @apply rounded-md
+.grid-item img {
+    @apply sm:min-h-[250px] lg:min-h-[200px] sm:max-h-[250px] lg:max-h-[200px] min-w-full cursor-pointer rounded-xl shadow-md hover:scale-105 transition-all ease-in-out duration-500
 }
 
+.item-desc {
+    @apply flex flex-row justify-between items-center py-2 px-3 mt-2 rounded-bl-2xl rounded-br-2xl text-sm shadow-md bg-white text-gray-600 font-light
+}

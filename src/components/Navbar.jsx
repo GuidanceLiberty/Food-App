@@ -1,5 +1,3 @@
-import React from 'react'
-import logo from '../assets/logo.jpeg.jpg'
 import { NavLink } from 'react-router-dom'
 import { RiUser2Fill } from '@remixicon/react'
 
