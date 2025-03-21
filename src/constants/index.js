@@ -41,12 +41,12 @@ import vegan_5 from '../assets/foods/vegan-5.jpeg'
 import vegan_6 from '../assets/foods/vegan-7.jpeg'
 
 
-import italian_1 from '../assets/italian/italian-1.jpg'
-import italian_2 from '../assets/italian/italian-2.jpg'
-import italian_3 from '../assets/italian/italian-3.jpg'
-import italian_4 from '../assets/italian/italian-4.jpg'
-import italian_5 from '../assets/italian/italian-5.jpg'
-import italian_6 from '../assets/italian/italian-6.jpg'
+import italian_1 from '../assets/italian/italian-10.jpg'
+import italian_2 from '../assets/italian/italian-12.jpg'
+import italian_3 from '../assets/italian/italian-11.jpg'
+import italian_4 from '../assets/italian/italian-9.jpg'
+import italian_5 from '../assets/italian/italian-8.jpg'
+import italian_6 from '../assets/italian/italian-7.jpg'
 
 
 export const confectioneries = [
