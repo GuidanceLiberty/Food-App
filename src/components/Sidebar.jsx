@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../assets/logo.jpeg'
-import { Ri4kLine, RiBowlFill, RiBowlLine, RiCake2Fill, RiDingdingLine, RiGlobeLine, RiLeafLine, RiRestaurant2Fill, RiRestaurant2Line, RiRestaurantFill, RiRestaurantLine, RiShoppingBag2Line, RiTable3 } from '@remixicon/react'
+import { Ri4kLine, RiBowlFill, RiBowlLine, RiCake2Fill, RiDingdingLine, RiDrinks2Line, RiGlobeLine, RiLeafLine, RiRestaurant2Fill, RiRestaurant2Line, RiRestaurantFill, RiRestaurantLine, RiShoppingBag2Line, RiTable3 } from '@remixicon/react'
 import { NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
@@ -13,43 +13,65 @@ const Sidebar = () => {
                 <span className='text-orange-500'> Place</span>
             </h3>
 
-            <div className="side-menus">
-                
-
-                <div className="side-menu">
+            <div className="side-menus">               
+                                   
+                    <NavLink to={`/category-page/confectioneries`} className={ ({isActive}) => {
+                        return isActive ? 'side-menu-active' : 'side-menu'
+                    }  }>
                     <span className='text-orange-400'><RiCake2Fill /></span>
-                    <NavLink to={`/category/confectioneries`}>Confectioneries</NavLink>
-                </div>
+                    <span>Confectioneries</span>
+                    </NavLink>               
 
-                <div className="side-menu">
+                                  
+                    <NavLink to={`/category-page/local`} className={ ({isActive}) => {
+                        return isActive ? 'side-menu-active' : 'side-menu'
+                    }  }>
                     <span className='text-orange-400'><RiBowlFill /></span>
-                    <NavLink to={`/category/local`}>Local</NavLink>
-                </div>
+                    <span>Local</span>
+                    </NavLink>
 
-                <div className="side-menu">
+                    <NavLink to={`/category-page/continental`} className={ ({isActive}) => {
+                        return isActive ? 'side-menu-active' : 'side-menu'
+                    }  }>
                     <span className='text-orange-400'><RiGlobeLine /></span>
-                    <NavLink to={`/category/continental`}>Continental</NavLink>
-                </div>
+                    <span>Continental</span>
+                    </NavLink>
 
-                <div className="side-menu">
+                    <NavLink to={`/category-page/chinese`} className={ ({isActive}) => {
+                        return isActive ? 'side-menu-active' : 'side-menu'
+                    }  }>
                     <span className='text-orange-400'><RiShoppingBag2Line /></span>
-                    <NavLink to={`/category/chinese`}>Chinese</NavLink>
-                </div>
+                    <span>Chinese</span>
+                    </NavLink>
 
-                <div className="side-menu">
+                    <NavLink to={`/category-page/appetizer`} className={ ({isActive}) => {
+                        return isActive ? 'side-menu-active' : 'side-menu'
+                    }  }>
                     <span className='text-orange-400'><RiRestaurant2Fill /></span>
-                    <NavLink to={`/category/appetizer`}>Appetizer</NavLink>
-                </div>
+                    <span>Appetizer</span>
+                    </NavLink>
 
-                <div className="side-menu">
+                    <NavLink to={`/category-page/vegetarian`} className={ ({isActive}) => {
+                        return isActive ? 'side-menu-active' : 'side-menu'
+                    }  }>
                     <span className='text-orange-400'><RiLeafLine /></span>
-                    <NavLink to={`/category/vegetarian`}>Vegetarian</NavLink>
-                </div>
+                    <span>Vegetarian</span>
+                    </NavLink>
 
-                <div className="side-menu">
+                    <NavLink to={`/category-page/italian`} className={ ({isActive}) => {
+                        return isActive ? 'side-menu-active' : 'side-menu'
+                    }  }>
                     <span className='text-orange-400'><RiRestaurantFill /></span>
-                    <NavLink to={`/category/italian`}>Italian</NavLink>
-                </div>
+                    <span>Italian</span>
+                    </NavLink>
+
+                    <NavLink to={`/category-page/drinks`} className={ ({isActive}) => {
+                        return isActive ? 'side-menu-active' : 'side-menu'
+                    }  }>
+                    <span className='text-orange-400'><RiDrinks2Line /></span>
+                    <span>Drinks</span>
+                    </NavLink>
+
             </div>
 
         </div>

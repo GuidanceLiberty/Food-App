@@ -1,4 +1,4 @@
-import heroImg from '../assets/new/hero-table-2.jpg'
+import heroImg from '../assets/hero-table-2.jpg'
 
 const Hero = () => {
   return (
@@ -9,9 +9,11 @@ const Hero = () => {
       <div className="hero-title">
         <div className='text-4xl flex flex-col text-center uppercase gap-8'>
             <span className='text-[4rem] text-orange-600'>Welcome </span>
-            <span className=''> To New Guidance Restaurant</span>
+            <span className='text-accent'> To New Guidance Restaurant</span>
 
-            <p className='text-base'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi beatae, iure aspernatur repellat quaerat sit!</p>
+            <p className='text-base'>
+              New Guidance Restaurant offers a modern dining experience with a menu full of fresh, flavorful dishes made from locally sourced ingredients. Whether you're ordering for delivery or planning a visit, we bring you exceptional food and service. Explore our diverse offerings online and enjoy a memorable meal from the comfort of your home or at our inviting restaurant.
+            </p>
         </div>
       </div>
     </section>

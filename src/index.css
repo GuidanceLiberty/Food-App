@@ -23,7 +23,11 @@
 }
 
 .side-menu {
-    @apply flex flex-row items-center gap-4 px-3 py-2 rounded-md cursor-pointer hover:bg-accent-secondary transition-all duration-300;
+    @apply flex flex-row items-center gap-4 px-3 py-2 rounded-md cursor-pointer border-l-4 border-transparent hover:bg-accent/20 hover:border-l-[5px] hover:border-l-orange-500 hover:shadow-xl transition-all duration-300;
+}
+
+.side-menu-active {
+    @apply flex flex-row items-center gap-4 px-3 py-2 rounded-md cursor-pointer bg-accent/20 border-l-[5px] border-l-orange-500 shadow-xl transition-all ease-in-out duration-700
 }
 
 .nav-menus{
