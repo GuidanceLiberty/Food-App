@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../assets/logo.jpeg'
-import { Ri4kLine, RiBowlFill, RiBowlLine, RiCake2Fill, RiDingdingLine, RiDrinks2Line, RiGlobeLine, RiLeafLine, RiRestaurant2Fill, RiRestaurant2Line, RiRestaurantFill, RiRestaurantLine, RiShoppingBag2Line, RiTable3 } from '@remixicon/react'
+import {  RiBowlFill, RiCake2Fill, RiDrinks2Line, RiGlobeLine, RiLeafLine, RiRestaurant2Fill, RiRestaurantFill,  RiShoppingBag2Line, } from '@remixicon/react'
 import { NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
@@ -9,8 +9,8 @@ const Sidebar = () => {
         <div className="flex flex-col text-center">
             <img src={logo} alt="logo" className='h-11 object-contain' />
             <h3 className='text-2xl font-semibold max-md:hidden'>
-                <span className='text-accent'>Sizzling</span>
-                <span className='text-orange-500'> Place</span>
+                <span className='text-accent'>New</span>
+                <span className='text-orange-500'>Guidance</span>
             </h3>
 
             <div className="side-menus">               

@@ -40,7 +40,7 @@ const CategoryPage = () => {
           {
             foods  && foods.map((item) => (
               <div key={item.id} className="grid-item">
-                <NavLink to={`/category/confectioneries/${item.id}`} >
+                <NavLink to={`/category/foods/${category}/${item.id}`} >
                   <img src={item.imgUrl} alt={item.name} />
                 </NavLink>
 
