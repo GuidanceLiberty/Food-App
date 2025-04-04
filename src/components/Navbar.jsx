@@ -19,7 +19,7 @@ const Navbar = () => {
         </NavLink>
 
 
-        <NavLink to={`/home`} 
+        <NavLink to={`/meal/create`} 
           className={ ({isActive}) => {return isActive ? 'nav-menu-active' : 'nav-menu' }  }>
             <div className="flex items-center gap-1">
               <RiBowlLine className='sm:flex md:flex text-accent '/>
@@ -27,7 +27,7 @@ const Navbar = () => {
             </div>            
         </NavLink>
 
-        <NavLink to={`/home`} 
+        <NavLink to={`/category-page/favorites`} 
           className={ ({isActive}) => {return isActive ? 'nav-menu-active' : 'nav-menu' }  }>
             <div className="flex items-center gap-1">
               <RiHeart2Line className='sm:flex md:flex text-accent '/>

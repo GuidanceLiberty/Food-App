@@ -26,6 +26,77 @@ const FoodDetail = () => {
 
     }, [])
 
+    // FAVORITE
+  const handleFavorites= (e) => {
+    e.preventDefault();
+    
+    const favoriteData = {
+      id,
+      name: food.name,
+      price: food.price,
+      duration: food.duration,
+      recipe: food.recipe,
+      address: food.address,
+      ratings: food.ratings,
+      restaurant: food.restaurant,
+      description: food.description,
+      imgUrl: food.imgUrl,
+    };
+    
+    let answer;
+    answer = confirm('Are you sure you want to save as favorite ?');
+    if (answer) {
+      addFavorite(favoriteData);
+    }
+  }
+
+  const addFavorite = async (favoriteData) => {
+    try {
+        const res = await fetch(`http://localhost:4000/favorites/`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(favoriteData),
+        });
+        if (res) { alert("Meal added to favorite successfully"); }
+    } catch (error) {
+      console.log("Error while adding favorite meal ", error); 
+    }
+    return navigate(`/category-page/favorites`);
+  }
+
+
+
+
+  // DELETE
+  const handleRemoveMeal = (e) => {
+    e.preventDefault();
+    
+    let answer;
+    answer = confirm('Are you sure you want to remove meal ?');
+    if (answer) {
+      removeMeal(id);
+    }
+  }
+
+
+  const removeMeal = async (id) => {
+    try {
+        const res = await fetch(`http://localhost:4000/${cate}/${id}`, {
+            method: 'DELETE',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+        });
+        if (res) { alert("Meal removed from favorite successfully"); }
+    } catch (error) {
+      console.log("Error while removing favorite meal ", error); 
+    }
+    return navigate(`/category-page/${cate}`);
+  }
+
+
   return (
     <section>
       <div className="flex justify-between items-center mb-10">
@@ -35,23 +106,23 @@ const FoodDetail = () => {
      </div>
 
         <div className="flex justify-end items-center gap-2">
-            <NavLink to={`/`}>
+            <NavLink to={`/meal/edit/${cate}/${id}`}>
                 <div className="btn-round bg-emerald-600">
                     <RiEditLine size={16} />
                 </div>
             </NavLink>
 
-            <NavLink to={`/`}>
-                <div className="btn-round bg-black">
-                    <RiHeart3Line size={16} />
-                </div>
-            </NavLink>
+            <form action="" onSubmit={handleFavorites}>
+                <button type='submit' className="btn-round bg-black text-white">
+                    <RiHeart3Line size={16} /> 
+                </button>
+              </form>
 
-            <NavLink to={`/`}>
-                <div className="btn-round bg-red-600 text-white">
-                    <RiCloseLine size={16} />
-                </div>
-            </NavLink>
+              <form action="" onSubmit={handleRemoveMeal}>
+                <button type='submit' className="btn-round bg-red-600 text-white">
+                    <RiCloseLine size={16} /> 
+                </button>
+              </form>
         </div>
       </div>
 

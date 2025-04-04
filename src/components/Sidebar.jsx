@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../assets/logo.jpeg'
-import {  RiBowlFill, RiCake2Fill, RiDrinks2Line, RiGlobeLine, RiLeafLine, RiRestaurant2Fill, RiRestaurantFill,  RiShoppingBag2Line, } from '@remixicon/react'
+import {  RiBowlFill, RiBowlLine, RiCake2Fill, RiCupFill, RiCupLine, RiDrinks2Line, RiGalleryLine, RiGlobeLine, RiLeafLine, RiRestaurant2Fill, RiRestaurantFill,  RiShoppingBag2Line, } from '@remixicon/react'
 import { NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
@@ -26,7 +26,7 @@ const Sidebar = () => {
                     <NavLink to={`/category-page/local`} className={ ({isActive}) => {
                         return isActive ? 'side-menu-active' : 'side-menu'
                     }  }>
-                    <span className='text-orange-400'><RiBowlFill /></span>
+                    <span className='text-orange-400'><RiBowlLine /></span>
                     <span>Local</span>
                     </NavLink>
 
@@ -68,7 +68,7 @@ const Sidebar = () => {
                     <NavLink to={`/category-page/drinks`} className={ ({isActive}) => {
                         return isActive ? 'side-menu-active' : 'side-menu'
                     }  }>
-                    <span className='text-orange-400'><RiDrinks2Line /></span>
+                    <span className='text-orange-400'><RiCupLine /></span>
                     <span>Drinks</span>
                     </NavLink>
 

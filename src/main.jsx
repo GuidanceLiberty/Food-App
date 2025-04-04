@@ -8,6 +8,8 @@ import About from './pages/About.jsx'
 import CategoryPage from './pages/CategoryPage.jsx'
 import Contact from './pages/Contact.jsx'
 import FoodDetail from './pages/FoodDetail.jsx'
+import CreateFood from './pages/CreateFood.jsx'
+import EditFood from './pages/EditFood.jsx'
 
 
 const router = createBrowserRouter([
@@ -46,6 +48,18 @@ const router = createBrowserRouter([
   { path: '/category', element: <App />,
     children:[
       {path: '/category/:foods/:cate/:id', element: <FoodDetail /> }, 
+    ]
+  },
+
+  { path: '/meal', element: <App />,
+    children:[
+      {path: '/meal/create', element: <CreateFood /> }, 
+    ]
+  },
+
+  { path: '/meal', element: <App />,
+    children:[
+      {path: '/meal/edit/:category/:id', element: <EditFood /> }, 
     ]
   },
   
