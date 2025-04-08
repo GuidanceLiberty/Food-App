@@ -675,22 +675,6 @@
       "ratings": 5,
       "restaurant": "Yummies",
       "description": "A delicious lasagna filled with chicken, pasta, and a rich, creamy tomato sauce. Topped with a layer of meatballs, mozzarella cheese, and garlic, this Italian dish is a perfect balance of flavors and textures."
-    },
-    {
-      "id": "6",
-      "name": "Gnocchi and Potato",
-      "imgUrl": "/../src/assets/italian/italian-7.jpg",
-      "price": "35,500",
-      "duration": "45m",
-      "recipe": [
-        "Chicken",
-        "Pasta",
-        "Tomato Sauce"
-      ],
-      "address": "11, Peak Lane - Storms End.",
-      "ratings": 5,
-      "restaurant": "Yummies",
-      "description": "A delicious lasagna filled with chicken, pasta, and a rich, creamy tomato sauce. Topped with a layer of meatballs, mozzarella cheese, and garlic, this Italian dish is a perfect balance of flavors and textures."
     }
   ],
   "drinks": [
@@ -793,20 +777,97 @@
   ],
   "favorites": [
     {
-      "id": "2",
-      "name": "Chocolate Truffles",
-      "price": "22,700",
-      "duration": "30",
+      "id": "1",
+      "name": "Local Assaulted meat",
+      "price": "20000",
+      "duration": "35m",
       "recipe": [
-        "Crispy",
-        "Mozzarella",
-        "Sticks"
+        "Spicy, ",
+        "Buffalo, ",
+        "Cauliflower Bites"
+      ],
+      "address": "145, White Heart Lane - Storms End.",
+      "ratings": 4,
+      "restaurant": "Asian Lounge",
+      "description": "A fragrant rice dish cooked in coconut milk, served with crispy anchovies, peanuts, boiled egg, spicy sambal, and cucumber. Often accompanied by fried chicken or rendang, this beloved Malaysian dish is a perfect balance of sweet, spicy, and savory flavors.",
+      "imgUrl": "/../src/assets/Local/local-assaulted.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Vanilla Cake",
+      "price": "13,990",
+      "duration": "45m",
+      "recipe": [
+        "Spinach",
+        "Artichoke Dip"
+      ],
+      "address": "123, White Heart Lane - Storms End.",
+      "ratings": 3,
+      "restaurant": "Asian Lounge",
+      "description": "A classic French pastry made from light choux dough, filled with luscious vanilla or chocolate cream, and topped with a glossy chocolate glaze. With its crisp exterior and creamy center, the éclair is a delightful balance of textures and flavors.",
+      "imgUrl": "/../src/assets/confectioneries/confectioneries-4.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Spanish Paella Valenciana",
+      "price": "13,990",
+      "duration": "45m",
+      "recipe": [
+        "Spinach",
+        "Artichoke Dip"
+      ],
+      "address": "123, White Heart Lane - Storms End.",
+      "ratings": 5,
+      "restaurant": "Asian Lounge",
+      "description": "A traditional Spanish rice dish infused with saffron, featuring a mix of vegetables, bell peppers, and sometimes seafood or meat. Cooked in a shallow pan, this dish offers a rich, aromatic, and smoky flavor with every bite.",
+      "imgUrl": "/../src/assets/continental/continental-4.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Hot and Sour Soup",
+      "price": "12,500",
+      "duration": "25m",
+      "recipe": [
+        "Creamy",
+        "Tomato",
+        "Basil Soup"
+      ],
+      "address": "45, Lekki Expressway - Storms End.",
+      "ratings": 4,
+      "restaurant": "Top Kitchen",
+      "description": "This comforting soup balances tangy vinegar, spicy white pepper, and rich umami flavors. Filled with tofu, mushrooms, bamboo shoots, and egg ribbons, it offers a deliciously warming experience that awakens the senses with every spoonful.",
+      "imgUrl": "/../src/assets/chinese/chinese-6.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Crispy Cheese-Stuffed Jalapeño Poppers",
+      "price": "13,990",
+      "duration": "45m",
+      "recipe": [
+        "Spinach",
+        "Artichoke Dip"
+      ],
+      "address": "123, White Heart Lane - Storms End.",
+      "ratings": 4,
+      "restaurant": "Asian Lounge",
+      "description": "Fresh jalapeños filled with a creamy cheese blend, coated in a crispy golden breadcrumb crust, and deep-fried to perfection. The perfect combination of heat and creaminess, these poppers deliver a satisfying crunch with every spicy, cheesy bite.",
+      "imgUrl": "/../src/assets/appetizer/appetizer-4.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Malta Guinness",
+      "price": "35,500",
+      "duration": "45m",
+      "recipe": [
+        "Chicken",
+        "Pasta",
+        "Tomato Sauce"
       ],
       "address": "11, Peak Lane - Storms End.",
       "ratings": 5,
       "restaurant": "Yummies",
-      "description": "Decadent bite-sized treats made from smooth, creamy ganache, coated in cocoa powder, nuts, or chocolate. These luxurious confections melt in your mouth, delivering an intense chocolate flavor with a velvety texture, perfect for indulgence or gifting.",
-      "imgUrl": "/../src/assets/confectioneries/confectioneries-2.jpg"
+      "description": "A delicious lasagna filled with chicken, pasta, and a rich, creamy tomato sauce. Topped with a layer of meatballs, mozzarella cheese, and garlic, this Italian dish is a perfect balance of flavors and textures.",
+      "imgUrl": "/../src/assets/drinks/drink-6.jpg"
     }
   ]
 }

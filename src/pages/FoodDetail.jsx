@@ -1,4 +1,4 @@
-import { RiAddLine, RiBankLine, RiCloseLine, RiEditLine, RiHeart3Line, RiMapPin2Line, RiStarFill, RiTimeLine } from '@remixicon/react'
+import { RiAddLine, RiBankLine, RiCloseLine, RiEditLine, RiHeart3Line, RiHeartAdd2Line, RiHeartAddLine, RiMapPin2Line, RiStarFill, RiTimeLine } from '@remixicon/react'
 import React, { useEffect, useState } from 'react'
 import { NavLink, useNavigate, useParams } from 'react-router-dom'
 import menu from '../assets/Local/local-soup.jpg'
@@ -114,7 +114,7 @@ const FoodDetail = () => {
 
             <form action="" onSubmit={handleFavorites}>
                 <button type='submit' className="btn-round bg-black text-white">
-                    <RiHeart3Line size={16} /> 
+                    <RiHeartAdd2Line size={16} /> 
                 </button>
               </form>
 

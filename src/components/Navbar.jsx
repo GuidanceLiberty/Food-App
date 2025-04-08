@@ -44,7 +44,7 @@ const Navbar = () => {
         </NavLink>
       </div>
 
-      <div className="nav-menu cursor-pointer ">
+      <div className="nav-menu cursor-pointer flex-col">
         <RiUser3Line />
       </div>
     </nav>
