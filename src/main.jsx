@@ -14,7 +14,7 @@ import Register from './pages/Register.jsx'
 
 
 const router = createBrowserRouter([
-  // { path: '/home', element: <Login /> },
+  // { path: '/', element: <Login /> },
   // { path: '/register', element: <Register /> },
 
   

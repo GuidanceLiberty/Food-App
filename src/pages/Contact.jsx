@@ -7,8 +7,8 @@ const Contact = () => {
           <div className='text-2xl flex flex-col text-center gap-8'>
               <span className='text-[2rem] uppercase'>Welcome</span>
               <span className=''> 
-                <span className='text-accent'>Sizzling</span>  
-                <span className='text-orange-400'> Place</span>  
+                <span className='text-accent'>New</span>  
+                <span className='text-orange-400'>Guidance</span>  
               </span>
               
               <p className='text-[1rem] font-light'>
