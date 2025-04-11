@@ -46,56 +46,56 @@ const Hero = () => {
         <NavLink to={`/category-page/vegetarian`}>
         <div className="hero-grid">
           <div className='hero-grid-desc'>Vegan</div>
-          <img src={vegan} alt="vegan" className='object-cover spin' /> 
+          <img src={vegan} alt="vegan" className='object-cover' /> 
         </div>
         </NavLink>
 
         <NavLink to={`/category-page/local`}>
         <div className="hero-grid"> 
           <div className='hero-grid-desc'>Local</div>
-          <img src={soup} alt="vegan" className='object-cover spin' /> 
+          <img src={soup} alt="vegan" className='object-cover ' /> 
         </div>
         </NavLink>
 
         <NavLink to={`/category-page/chinese`}>
         <div className="hero-grid"> 
           <div className='hero-grid-desc'>Chinese</div>
-          <img src={chinese} alt="vegan" className='object-cover spin' /> 
+          <img src={chinese} alt="vegan" className='object-cover ' /> 
         </div>
         </NavLink>
 
         <NavLink to={`/category-page/appetizer`}>
         <div className="hero-grid"> 
           <div className='hero-grid-desc'>Appetizer</div>
-          <img src={appetizer} alt="vegan" className='object-cover spin' /> 
+          <img src={appetizer} alt="vegan" className='object-cover ' /> 
         </div>
         </NavLink>
 
         <NavLink to={`/category-page/confectioneries`}>
         <div className="hero-grid"> 
           <div className='hero-grid-desc'>Confectioneries</div>
-          <img src={confectioneries} alt="vegan" className='object-cover spin' /> 
+          <img src={confectioneries} alt="vegan" className='object-cover ' /> 
         </div>
         </NavLink>
 
         <NavLink to={`/category-page/italian`}>
         <div className="hero-grid"> 
           <div className='hero-grid-desc'>Italian</div>
-          <img src={italian} alt="vegan" className='object-cover spin' /> 
+          <img src={italian} alt="vegan" className='object-cover' /> 
         </div>
         </NavLink>
 
         <NavLink to={`/category-page/drinks`}>
         <div className="hero-grid"> 
           <div className='hero-grid-desc'>Drinks</div>
-          <img src={drinks} alt="vegan" className='object-cover spin' /> 
+          <img src={drinks} alt="vegan" className='object-cover' /> 
         </div>
         </NavLink>
 
         <NavLink to={`/category-page/continental`}>
         <div className="hero-grid"> 
           <div className='hero-grid-desc'>Continental</div>
-          <img src={continental} alt="vegan" className='object-cover spin' /> 
+          <img src={continental} alt="vegan" className='object-cover' /> 
         </div>
         </NavLink>
 

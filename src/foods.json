@@ -777,22 +777,6 @@
   ],
   "favorites": [
     {
-      "id": "1",
-      "name": "Local Assaulted meat",
-      "price": "20000",
-      "duration": "35m",
-      "recipe": [
-        "Spicy, ",
-        "Buffalo, ",
-        "Cauliflower Bites"
-      ],
-      "address": "145, White Heart Lane - Storms End.",
-      "ratings": 4,
-      "restaurant": "Asian Lounge",
-      "description": "A fragrant rice dish cooked in coconut milk, served with crispy anchovies, peanuts, boiled egg, spicy sambal, and cucumber. Often accompanied by fried chicken or rendang, this beloved Malaysian dish is a perfect balance of sweet, spicy, and savory flavors.",
-      "imgUrl": "/../src/assets/Local/local-assaulted.jpg"
-    },
-    {
       "id": "4",
       "name": "Vanilla Cake",
       "price": "13,990",
@@ -868,6 +852,70 @@
       "restaurant": "Yummies",
       "description": "A delicious lasagna filled with chicken, pasta, and a rich, creamy tomato sauce. Topped with a layer of meatballs, mozzarella cheese, and garlic, this Italian dish is a perfect balance of flavors and textures.",
       "imgUrl": "/../src/assets/drinks/drink-6.jpg"
+    },
+    {
+      "id": "1",
+      "name": "Local Assaulted meat",
+      "price": "20000",
+      "duration": "35m",
+      "recipe": [
+        "Spicy, ",
+        "Buffalo, ",
+        "Cauliflower Bites"
+      ],
+      "address": "145, White Heart Lane - Storms End.",
+      "ratings": 4,
+      "restaurant": "Asian Lounge",
+      "description": "A fragrant rice dish cooked in coconut milk, served with crispy anchovies, peanuts, boiled egg, spicy sambal, and cucumber. Often accompanied by fried chicken or rendang, this beloved Malaysian dish is a perfect balance of sweet, spicy, and savory flavors.",
+      "imgUrl": "/../src/assets/Local/local-assaulted.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Locally Made Rice",
+      "price": "19,200",
+      "duration": "15m",
+      "recipe": [
+        "Stuffed",
+        "Jalapeño",
+        "Poppers"
+      ],
+      "address": "90, Best way Lane - Storms End.",
+      "ratings": 4,
+      "restaurant": "Grubs",
+      "description": "A vibrant, one-pot rice dish cooked in a tomato-based sauce with peppers, onions, and spices. Popular in Nigeria, Ghana, and Senegal, it’s often served with fried plantains and grilled chicken, delivering a bold, smoky, and slightly spicy taste.",
+      "imgUrl": "/../src/assets/local/local-rice.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Locally Prepared Chicken",
+      "price": "21,000",
+      "duration": "25m",
+      "recipe": [
+        "Chicken",
+        "Tikka",
+        "Masala"
+      ],
+      "address": "30, Ya Left - Storms End.",
+      "ratings": 5,
+      "restaurant": "Might Place",
+      "description": "A classic Filipino dish where meat (chicken or pork) is braised in soy sauce, vinegar, garlic, and black peppercorns. With a balance of tangy, salty, and savory flavors, it’s a comforting and versatile dish served with steamed rice.",
+      "imgUrl": "/../src/assets/local/local-mix-rice.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": "dbb5",
+      "name": "Guidance Ogar Ojua",
+      "email": "newguidance4141@gmail.com",
+      "password": "1234",
+      "phone": "9112524812"
+    },
+    {
+      "id": "576c",
+      "name": "Jane",
+      "email": "jane@gmail.com",
+      "password": "123456",
+      "phone": "09021435678"
     }
   ]
 }
