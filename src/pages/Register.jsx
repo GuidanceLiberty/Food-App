@@ -63,7 +63,7 @@ const Register = () => {
             <span className='capitalize'>SingUp</span>
             <div className="border-t-[3px] border-orange-400 w-[7rem]"></div>
         </div>
-
+ 
         <div className="w-full px-3 sm:px-3 md:px-8 lg:px-8 mb-3">
             <div className="input-div">
                 <label htmlFor="name" className='label'>
