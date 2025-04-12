@@ -84,8 +84,9 @@ const Login = () => {
           <div className="">
           <input type="checkbox" id='agree'/>
           <label htmlFor="agree">Remember me</label>
+          
           </div>                
-          <span className='text-accent'>Forgotten Password?</span>
+          <NavLink to={`/register`} className={'text-accent'}>Forgotten Password?</NavLink>
         </div>
         
 
