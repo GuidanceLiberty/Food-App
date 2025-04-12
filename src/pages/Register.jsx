@@ -107,7 +107,7 @@ const Register = () => {
         <div className="flex justify-between w-full px-3 sm:px-3 md:px-8 lg:px-8 mb-3">
             <button className={`btn-create !w-fit ${!isValid ? 'disabled:opacity-60 disabled:cursor-not-allowed' :''}`} disabled={!isValid} onMouseOver={checkfield}>Register</button>
 
-            <NavLink to={`/`} className={`btn-register !w-fit`}>Login</NavLink>
+            <NavLink to={`/`} className={`btn-register !w-fit bg-green-600 !text-white`}>Login</NavLink>
         </div>
        
       </form>
