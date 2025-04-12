@@ -89,10 +89,10 @@ const Login = () => {
         </div>
         
 
-        <div className="flex justify-between w-full px-3 sm:px-3 md:px-8 lg:px-8 mb-3">
+        <div className="flex justify-between w-full px-3 sm:px-3 md:px-8 gap-2 lg:px-8 mb-3">
               <button className={`btn-create !w-fit ${!isValid ? 'disabled:opacity-60 disabled:cursor-not-allowed' :''}`} disabled={!isValid} onMouseOver={checkfield}>Login</button>
         
-              <NavLink to={`/`} className={`btn-register !w-fit`}>create new account</NavLink>
+              <NavLink to={`/register`} className={`btn-register !w-fit`}>create new account</NavLink>
         </div>               
       </form>
     </main >
