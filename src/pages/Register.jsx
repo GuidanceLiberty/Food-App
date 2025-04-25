@@ -113,7 +113,7 @@ const Register = () => {
             <div className="w-full px-4 my-6 ">
                 <div className="flex items-center w-full pt-4">
                     <div className="flex-grow h-px bg-accent"></div>
-                    <span className="mx-4 text-white whitespace-nowrap">Or</span>
+                    <span className="mx-4 text-gray-700 font-black whitespace-nowrap">Or</span>
                     <div className="flex-grow h-px bg-accent"></div>
                 </div>
             </div>
