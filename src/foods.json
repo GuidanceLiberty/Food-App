@@ -904,40 +904,28 @@
   ],
   "users": [
     {
-      "id": "dbb5",
+      "id": "6922",
       "name": "Guidance Ogar Ojua",
       "email": "newguidance4141@gmail.com",
-      "password": "1234",
+      "password": "33333",
       "phone": "9112524812"
-    },
-    {
-      "id": "576c",
-      "name": "Jane",
-      "email": "jane@gmail.com",
-      "password": "123456",
-      "phone": "09021435678"
     }
   ],
   "activeUsers": [
     {
-      "id": "4020",
+      "id": "b62c",
       "email": "newguidance4141@gmail.com",
-      "password": "09112524812"
+      "password": "4444"
     },
     {
-      "id": "cd8e",
-      "email": "heavensent@gmail.com",
-      "password": "888888"
+      "id": "338a",
+      "email": "newguidance4141@gmail.com",
+      "password": "77777"
     },
     {
-      "id": "e071",
+      "id": "6c34",
       "email": "newguidance4141@gmail.com",
-      "password": "222222"
-    },
-    {
-      "id": "cfbc",
-      "email": "newguidance4141@gmail.com",
-      "password": "New Guidance "
+      "password": "Burger"
     }
   ]
 }

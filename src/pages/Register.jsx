@@ -1,4 +1,4 @@
-import { RiLock2Line, RiPhoneLine, RiUser3Line } from '@remixicon/react'
+import { RiGoogleFill, RiGoogleLine, RiLock2Line, RiMailLine, RiPhoneLine, RiUser3Line } from '@remixicon/react'
 import React, { useState } from 'react'
 import { NavLink, useNavigate } from 'react-router-dom'
 
@@ -59,57 +59,64 @@ const Register = () => {
   return (
     <main className='bg-accent/35 p-3 h-screen items-center' >
       <form className='login-form !h-[95%]' onSubmit={handleRegistration}>
-        <div className="text-2xl font-normal tracking-wider mb-11 flex flex-col items-center gap-1">
-            <span className='capitalize'>SingUp</span>
-            <div className="border-t-[3px] border-orange-400 w-[7rem]"></div>
-        </div>
+            <div className="text-2xl font-normal tracking-wider mb-11 flex flex-col items-center gap-1">
+                <span className='capitalize'>SingUp</span>
+                <div className="border-t-[3px] border-orange-400 w-[7rem]"></div>
+            </div>
  
-        <div className="w-full px-3 sm:px-3 md:px-8 lg:px-8 mb-3">
-            <div className="input-div">
-                <label htmlFor="name" className='label'>
-                    <RiUser3Line size={15}/>
-                    <span>Name</span>
-                </label>
-                <input type="text" id='name' name='name' placeholder='Name' className='input-field' value={name} onChange={(e) => setName(e.target.value)} onKeyUp={checkfield}/>
+            <div className="w-full px-3 sm:px-3 md:px-8 lg:px-8 mb-3">
+                <div className="input-div">
+                    <label htmlFor="name" className='label'>
+                        <RiUser3Line size={15}/>
+                        <span>Name</span>
+                    </label>
+                    <input type="text" id='name' name='name' placeholder='Name' className='input-field' value={name} onChange={(e) => setName(e.target.value)} onKeyUp={checkfield}/>
+                </div>
             </div>
-        </div>
 
-        <div className="w-full px-3 sm:px-3 md:px-8 lg:px-8 mb-3">
-            <div className="input-div">
-                <label htmlFor="email" className='label'>
-                    <RiUser3Line size={15}/>
-                    <span>Email</span>
-                </label>
-                <input type="text" id='email' name='email' placeholder='Email' className='input-field' value={email} onChange={(e) => setEmail(e.target.value)} onKeyUp={checkfield}/>
+            <div className="w-full px-3 sm:px-3 md:px-8 lg:px-8 mb-3">
+                <div className="input-div">
+                    <label htmlFor="email" className='label'>
+                        <RiMailLine size={15}/>
+                        <span>Email</span>
+                    </label>
+                    <input type="text" id='email' name='email' placeholder='Email' className='input-field' value={email} onChange={(e) => setEmail(e.target.value)} onKeyUp={checkfield}/>
+                </div>
             </div>
-        </div>
 
-        <div className="w-full px-3 sm:px-3 md:px-8 lg:px-8 mb-3">
-            <div className="input-div">
-                <label htmlFor="password" className='label'>
-                    <RiLock2Line size={15}/>
-                    <span>Password</span>
-                </label>
-                <input type="password" id='password' name='password' placeholder='*****' className='input-field' value={password} onChange={(e) => setPassword(e.target.value)} onKeyUp={checkfield}/>
+            <div className="w-full px-3 sm:px-3 md:px-8 lg:px-8 mb-3">
+                <div className="input-div">
+                    <label htmlFor="password" className='label'>
+                        <RiLock2Line size={15}/>
+                        <span>Password</span>
+                    </label>
+                    <input type="password" id='password' name='password' placeholder='*****' className='input-field' value={password} onChange={(e) => setPassword(e.target.value)} onKeyUp={checkfield}/>
+                </div>
             </div>
-        </div>
 
-        <div className="w-full px-3 sm:px-3 md:px-8 lg:px-8 mb-3">
-            <div className="input-div">
-                <label htmlFor="phone" className='label'>
-                    <RiPhoneLine size={15}/>
-                    <span>Phone</span>
-                </label>
-                <input type="text" id='phone' name='phone' placeholder='Mobile Phone' className='input-field' value={phone} onChange={(e) => setPhone(e.target.value)} onKeyUp={checkfield}/>
+            <div className="w-full px-3 sm:px-3 md:px-8 lg:px-8 mb-3">
+                <div className="input-div">
+                    <label htmlFor="phone" className='label'>
+                        <RiPhoneLine size={15}/>
+                        <span>Phone</span>
+                    </label>
+                    <input type="text" id='phone' name='phone' placeholder='Mobile Phone' className='input-field' value={phone} onChange={(e) => setPhone(e.target.value)} onKeyUp={checkfield}/>
+                </div>
             </div>
-        </div>
 
-        <div className="flex justify-between w-full px-3 sm:px-3 md:px-8 lg:px-8 mb-3">
-            <button className={`btn-create !w-fit ${!isValid ? 'disabled:opacity-60 disabled:cursor-not-allowed' :''}`} disabled={!isValid} onMouseOver={checkfield}>Register</button>
+            <div className="flex justify-between w-full px-3 sm:px-3 md:px-8 lg:px-8 mb-3">
+                <button className={`btn-create !w-fit ${!isValid ? 'disabled:opacity-60 disabled:cursor-not-allowed' :''}`} disabled={!isValid} onMouseOver={checkfield}>Register</button>
 
-            <NavLink to={`/`} className={`btn-register !w-fit bg-green-600 !text-white`}>Login</NavLink>
-        </div>
-       
+                <NavLink to={`/`} className={`btn-register !w-fit bg-green-600 !text-white`}>Login</NavLink>
+            </div>
+
+            <div className="w-full px-4 my-6 ">
+                <div className="flex items-center w-full pt-4">
+                    <div className="flex-grow h-px bg-accent"></div>
+                    <span className="mx-4 text-white whitespace-nowrap">Or</span>
+                    <div className="flex-grow h-px bg-accent"></div>
+                </div>
+            </div>
       </form>
     </main >
   )

@@ -23,7 +23,11 @@ const Hero = () => {
 
       <div className="hero-title">
           <div className='text-2xl flex flex-col text-center gap-5'>
-              <span className='text-[2rem] uppercase text-orange-600'>NewGuidance</span>
+            <div className="">
+            <span className='text-[2rem] uppercase text-accent'>New</span>
+            <span className='text-[2rem] uppercase text-orange-600'>Guidance</span>
+            </div>
+              
               <span className=''> 
                 <span className='text-accent'>Restaurant</span>  
                 {/* <span className='text-orange-400'> Kitchen</span>   */}

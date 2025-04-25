@@ -192,7 +192,7 @@ const FoodDetail = () => {
               </div>
             </div>
 
-            <div className="flex items-center gap-2text-[0.9rem]">
+            <div className="flex items-center gap-2 text-[0.9rem]">
               <RiMapPin2Line className='text-accent' />
               <p> {food.address} </p> 
             </div>
